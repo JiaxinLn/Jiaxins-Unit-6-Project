@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jiaxin's Unit 6 Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="title">So Alone</div>
+  <p class="intro">
+    It's a dark and stormy night. As you sit alone in your house, you suddenly notice shadows outside—two people trying to break in. Fear grips you, and you must make a choice.
+  </p>
+  <img class="firstImage" src="https://i.ytimg.com/vi/TgPC8a_Up8M/maxresdefault.jpg">
+  <div class="button">
+    <button class="choiceButton" data-choice="hide">Hide</button>
+    <button class="choiceButton" data-choice="fightBack">Fight Back</button>
+  </div>
+
+  <div class="Part-One">
+    <h1>Start of the Story</h1>
+    <p>It's a dark and stormy night. You notice shadows outside—two people trying to break in. Fear grips you, and you must make a choice.</p>
+  </div>
+
+  <div class="Part-Two-Yes">
+    <h1>Hide in the Closet</h1>
+    <p>You decide to hide in the closet. The closet door creaks as you close it. You can hear footsteps approaching.</p>
+    <p>What will you do next?</p>
+    <div class="button">
+      <button class="choiceButton" data-choice="continueHiding">Stay hidden</button>
+      <button class="choiceButton" data-choice="escape">Try to escape</button>
+    </div>
+  </div>
+
+  <div class="Part-Two-No">
+    <h1>Fight Back</h1>
+    <p>You gather your courage and decide to confront the intruders. As you approach, you see the fear in their eyes.</p>
+    <p>What will you do next?</p>
+    <div class="button">
+      <button class="choiceButton" data-choice="callPolice">Call the police</button>
+      <button class="choiceButton" data-choice="confront">Confront the intruders</button>
+    </div>
+  </div>
+
+  <div class="Story-Ending-Yes">
+    <h1>You Survived!</h1>
+    <p>The police arrived just in time, and the intruders were arrested. You're safe now.</p>
+    <img class="treasure-img" src="https://quoters.info/files/quote-pictures/475620-odin-doma-home-alone_0.jpg">
+  </div>
+
+  <div class="Story-Ending-No">
+    <h1>You Lost!</h1>
+    <p>The intruders found you, and things didn't end well. Better luck next time.</p>
+    <img class="treasure-img" src="https://i.ytimg.com/vi/M4_3FdixFm4/maxresdefault.jpg">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
